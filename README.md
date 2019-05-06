@@ -1,3 +1,34 @@
+# Kom igång
+
+## Förberedelser:
+
+Installera följande:
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Angular CLI](https://cli.angular.io/)
+
+## Kom igång med Todo-projektet
+
+1. Klona detta repo till valfri mapp genom:
+```bash
+git clone https://github.com/Tibbelit/da355a-vt19-todo-angular.git
+```
+2. Navigera till det nerklonade repot genom:
+```bash
+cd da355a-vt19-todo-angular
+```
+3. Installera alla beroende till Angular genom:
+```bash
+npm install
+```
+4. Starta utvecklingsservern genom:
+```bash
+ng serve
+```
+5. Surfa in till `localhost:4200` genom din webbläsare.
+
+---
+
 # TodoListAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
