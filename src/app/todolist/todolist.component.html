@@ -1,0 +1,8 @@
+<h2>Todos</h2>
+<input type="text" placeholder="What needs to be done?" class="form-control" [(ngModel)]="newTodo.title" (keyup.enter)="addTodo()">
+<ul class="list-group" *ngFor="let todo of todos">
+  <li class="list-group-item">{{ todo.title }}
+    <button class="btn btn-sm btn-danger" (click)="deleteItem(todo.id)">X</button>
+  </li>
+</ul>
+<span><strong>{{ todos.length }}</strong> {{ todos.length === 1 ? "todo" : "todos" }} left to do.</span>
